@@ -30,7 +30,7 @@ body {
 
 section {
   min-height: 100vh;
-  padding: 10rem 9% 2rem;
+  padding: 10rem 6% 2rem;
 }
 
 .header {
@@ -81,8 +81,7 @@ section {
 }
 
 .home-img img {
-  width: 35vw;
-
+  width: 30vw;
   animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -418,6 +417,7 @@ span {
 
   .navbar {
     position: absolute;
+    justify-content: center;
     top: 100%;
     left: 0;
     width: 100%;
@@ -434,7 +434,7 @@ span {
   .navbar a {
     display: block;
     font-size: 2rem;
-    margin: 3rem 0;
+    margin: 2rem 0;
   }
 
   .home {
