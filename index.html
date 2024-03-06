@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AXI Design Studio</title>
+
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- costume CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <a href="#" class="logo">AXIFOLIO</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section design -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Welcome to</h3>
+        <h1>AXI Studio</h1>
+        <h3>We are <span class="multiple-text"></span></h3>
+        <p>
+          We Design. Construct. Renovate. <br />
+          We build, make strategic plans and manage our projects professionally.
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-facebook"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+        </div>
+        <a href="#" class="btn">Download Portfolio</a>
+      </div>
+      <div class="home-img">
+        <img src="./assets/axi-logo.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./assets/logotrans.png" alt="about logo" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>AXI</span></h2>
+        <h3>Architecture & Interior</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus
+          modi ipsam ad sunt! Cumque, voluptatem neque ea repudiandae possimus
+          illum voluptates corporis blanditiis repellat accusamus mollitia
+          recusandae excepturi eius fugit.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- Section Services -->
+    <section class="services" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-building-house"></i>
+          <h3>Architecture</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sit
+            maxime illo dignissimos natus perferendis, quasi quisquam atque
+            excepturi eum.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bxs-chalkboard"></i>
+          <h3>Interior Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sit
+            maxime illo dignissimos natus perferendis, quasi quisquam atque
+            excepturi eum.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="bx bxs-layout"></i>
+          <h3>3D Modelling</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam sit
+            maxime illo dignissimos natus perferendis, quasi quisquam atque
+            excepturi eum.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="./assets/portfolio/childroom1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Interior Design</h4>
+            <p>Dr. Sandy</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/portfolio/ballroom1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Architecture Design</h4>
+            <p>Badak Ballroom - Serang</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./assets/portfolio/dine1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Interior Design</h4>
+            <p>Child Room - Cipinang</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Us!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Nama Lengkap" />
+          <input type="email" placeholder="Alamat Email" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="No Telepon" />
+          <input type="text" placeholder="Judul Pesan" id="judul_pesan" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Pesan Anda"
+        ></textarea>
+        <input type="submit" value="Kirim Pesan" class="btn" />
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2024 AXI Studio | All Right Reserverd</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- Scroll Revela Script -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed JavaScript -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- custom script -->
+    <script src="script.js"></script>
+  </body>
+</html>
